@@ -1,4 +1,4 @@
-package com.security.login.payload.response;
+package com.spring.protoBuff.payload.response;
 
 import java.util.List;
 

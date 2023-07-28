@@ -1,4 +1,4 @@
-package com.security.login.user;
+package com.spring.protoBuff.user;
 
 public enum Authorities {
 

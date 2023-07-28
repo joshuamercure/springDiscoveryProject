@@ -1,4 +1,4 @@
-package com.security.login.security.jwt;
+package com.spring.protoBuff.security.jwt;
 
 import java.security.Key;
 import java.util.Date;
@@ -13,7 +13,7 @@ import org.springframework.http.ResponseCookie;
 import org.springframework.stereotype.Component;
 import org.springframework.web.util.WebUtils;
 
-import com.security.login.user.UserDetailsImpl;
+import com.spring.protoBuff.user.UserDetailsImpl;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;

@@ -1,4 +1,4 @@
-package com.security.login.security.jwt;
+package com.spring.protoBuff.security.jwt;
 
 import java.util.HashSet;
 import java.util.List;
@@ -22,16 +22,16 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.security.login.payload.request.LoginRequest;
-import com.security.login.payload.request.SignupRequest;
-import com.security.login.payload.response.MessageResponse;
-import com.security.login.payload.response.UserInfoResponse;
-import com.security.login.user.Role;
-import com.security.login.user.RoleRepository;
-import com.security.login.user.SecurityRole;
-import com.security.login.user.User;
-import com.security.login.user.UserDetailsImpl;
-import com.security.login.user.UserRepository;
+import com.spring.protoBuff.payload.request.LoginRequest;
+import com.spring.protoBuff.payload.request.SignupRequest;
+import com.spring.protoBuff.payload.response.MessageResponse;
+import com.spring.protoBuff.payload.response.UserInfoResponse;
+import com.spring.protoBuff.user.Role;
+import com.spring.protoBuff.user.RoleRepository;
+import com.spring.protoBuff.user.SecurityRole;
+import com.spring.protoBuff.user.User;
+import com.spring.protoBuff.user.UserDetailsImpl;
+import com.spring.protoBuff.user.UserRepository;
 
 
 @CrossOrigin(origins = "*", maxAge = 3600)

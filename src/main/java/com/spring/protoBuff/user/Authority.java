@@ -1,4 +1,4 @@
-package com.security.login.user;
+package com.spring.protoBuff.user;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

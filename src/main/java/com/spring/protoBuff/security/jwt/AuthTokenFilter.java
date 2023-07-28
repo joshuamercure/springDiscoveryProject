@@ -1,4 +1,4 @@
-package com.security.login.security.jwt;
+package com.spring.protoBuff.security.jwt;
 
 import java.io.IOException;
 
@@ -11,7 +11,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.security.login.user.UserDetailsServiceImpl;
+import com.spring.protoBuff.user.UserDetailsServiceImpl;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

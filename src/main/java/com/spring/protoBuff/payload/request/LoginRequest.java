@@ -1,4 +1,4 @@
-package com.security.login.payload.request;
+package com.spring.protoBuff.payload.request;
 
 import jakarta.validation.constraints.NotBlank;
 
