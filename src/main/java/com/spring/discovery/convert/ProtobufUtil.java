@@ -1,4 +1,4 @@
-package com.spring.protoBuff.convert;
+package com.spring.discovery.convert;
 
 import java.io.IOException;
 

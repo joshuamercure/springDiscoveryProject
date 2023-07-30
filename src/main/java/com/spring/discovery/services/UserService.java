@@ -1,4 +1,4 @@
-package com.spring.protoBuff.services;
+package com.spring.discovery.services;
 
 import java.util.Collection;
 import java.util.List;
@@ -8,9 +8,9 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.spring.protoBuff.models.User;
-import com.spring.protoBuff.models.UserProto;
-import com.spring.protoBuff.repositories.UserRepository;
+import com.spring.discovery.models.User;
+import com.spring.discovery.models.UserProto;
+import com.spring.discovery.repositories.UserRepository;
 
 import jakarta.persistence.EntityNotFoundException;
 

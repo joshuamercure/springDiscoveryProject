@@ -1,13 +1,13 @@
-package com.spring.protoBuff.controllers;
+package com.spring.discovery.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.spring.protoBuff.models.User;
-import com.spring.protoBuff.models.UserProto;
-import com.spring.protoBuff.services.UserService;
+import com.spring.discovery.models.User;
+import com.spring.discovery.models.UserProto;
+import com.spring.discovery.services.UserService;
 
 @RestController
 public class UserController {

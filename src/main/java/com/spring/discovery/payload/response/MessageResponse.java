@@ -1,4 +1,4 @@
-package com.spring.protoBuff.payload.response;
+package com.spring.discovery.payload.response;
 
 public class MessageResponse {
 	private String message;

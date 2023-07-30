@@ -1,6 +1,6 @@
-package com.spring.protoBuff.models;
+package com.spring.discovery.models;
 
-import com.spring.protoBuff.enums.Authorities;
+import com.spring.discovery.enums.Authorities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

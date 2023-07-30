@@ -1,10 +1,10 @@
-package com.spring.protoBuff.repositories;
+package com.spring.discovery.repositories;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.spring.protoBuff.enums.Role;
-import com.spring.protoBuff.models.SecurityRole;
+import com.spring.discovery.enums.Role;
+import com.spring.discovery.models.SecurityRole;
 
 import jakarta.persistence.EntityNotFoundException;
 

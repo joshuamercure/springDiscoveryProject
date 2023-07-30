@@ -1,4 +1,4 @@
-package com.spring.protoBuff.security.jwt;
+package com.spring.discovery.security.jwt;
 
 import java.io.IOException;
 

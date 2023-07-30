@@ -1,4 +1,4 @@
-package com.spring.protoBuff.models;
+package com.spring.discovery.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.UniqueConstraint;

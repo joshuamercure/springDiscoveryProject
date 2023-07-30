@@ -1,8 +1,8 @@
-package com.spring.protoBuff.models;
+package com.spring.discovery.models;
 
 import java.util.Set;
 
-import com.spring.protoBuff.enums.Role;
+import com.spring.discovery.enums.Role;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.spring.protoBuff.enums;
+package com.spring.discovery.enums;
 
 public enum Authorities {
 

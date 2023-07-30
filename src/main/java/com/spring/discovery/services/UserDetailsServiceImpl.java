@@ -1,4 +1,4 @@
-package com.spring.protoBuff.services;
+package com.spring.discovery.services;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,9 +8,9 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.spring.protoBuff.models.User;
-import com.spring.protoBuff.models.UserDetailsImpl;
-import com.spring.protoBuff.repositories.UserRepository;
+import com.spring.discovery.models.User;
+import com.spring.discovery.models.UserDetailsImpl;
+import com.spring.discovery.repositories.UserRepository;
 
 
 @Service

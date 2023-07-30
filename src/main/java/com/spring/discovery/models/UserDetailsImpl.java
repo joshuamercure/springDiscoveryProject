@@ -1,4 +1,4 @@
-package com.spring.protoBuff.models;
+package com.spring.discovery.models;
 
 import java.util.Collection;
 import java.util.List;

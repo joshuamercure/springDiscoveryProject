@@ -1,4 +1,4 @@
-package com.spring.protoBuff.security.configuration;
+package com.spring.discovery.security.configuration;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,9 +16,9 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
-import com.spring.protoBuff.security.jwt.AuthEntryPointJwt;
-import com.spring.protoBuff.security.jwt.AuthTokenFilter;
-import com.spring.protoBuff.services.UserDetailsServiceImpl;
+import com.spring.discovery.security.jwt.AuthEntryPointJwt;
+import com.spring.discovery.security.jwt.AuthTokenFilter;
+import com.spring.discovery.services.UserDetailsServiceImpl;
 
 
 @Configuration

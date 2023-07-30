@@ -1,4 +1,4 @@
-package com.spring.protoBuff.controllers;
+package com.spring.discovery.controllers;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -20,17 +20,17 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.spring.protoBuff.enums.Role;
-import com.spring.protoBuff.models.SecurityRole;
-import com.spring.protoBuff.models.User;
-import com.spring.protoBuff.models.UserDetailsImpl;
-import com.spring.protoBuff.payload.request.LoginRequest;
-import com.spring.protoBuff.payload.request.SignupRequest;
-import com.spring.protoBuff.payload.response.MessageResponse;
-import com.spring.protoBuff.payload.response.UserInfoResponse;
-import com.spring.protoBuff.repositories.SecurityRoleService;
-import com.spring.protoBuff.security.jwt.JwtUtils;
-import com.spring.protoBuff.services.UserService;
+import com.spring.discovery.enums.Role;
+import com.spring.discovery.models.SecurityRole;
+import com.spring.discovery.models.User;
+import com.spring.discovery.models.UserDetailsImpl;
+import com.spring.discovery.payload.request.LoginRequest;
+import com.spring.discovery.payload.request.SignupRequest;
+import com.spring.discovery.payload.response.MessageResponse;
+import com.spring.discovery.payload.response.UserInfoResponse;
+import com.spring.discovery.repositories.SecurityRoleService;
+import com.spring.discovery.security.jwt.JwtUtils;
+import com.spring.discovery.services.UserService;
 
 
 @CrossOrigin(origins = "*", maxAge = 3600)

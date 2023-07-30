@@ -1,10 +1,10 @@
-package com.spring.protoBuff.repositories;
+package com.spring.discovery.repositories;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.spring.protoBuff.models.User;
+import com.spring.discovery.models.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 
