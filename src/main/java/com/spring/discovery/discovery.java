@@ -1,4 +1,4 @@
-package com.spring.protoBuff;
+package com.spring.discovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,10 +16,10 @@ import io.swagger.v3.oas.models.security.SecurityScheme;
 
 @SpringBootApplication
 @EnableJpaRepositories
-public class LoginApplication {
+public class Discovery {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LoginApplication.class, args);
+		SpringApplication.run(Discovery.class, args);
 	}
 
     @Bean
