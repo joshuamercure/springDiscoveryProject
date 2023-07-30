@@ -1,9 +1,11 @@
 syntax="proto3";
-package springprotobuff;
-option java_package = "com.spring.protoBuff";
-option java_outer_classname = "SpringprotoBuff";
+
+package models;
+option java_package = "com.spring.protoBuff.models";
+option java_outer_classname = "UserProto";
 
 message User{
+
     int32 id = 1;
 
     string username = 2;

@@ -18,7 +18,7 @@ import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import com.spring.protoBuff.security.jwt.AuthEntryPointJwt;
 import com.spring.protoBuff.security.jwt.AuthTokenFilter;
-import com.spring.protoBuff.user.UserDetailsServiceImpl;
+import com.spring.protoBuff.services.UserDetailsServiceImpl;
 
 
 @Configuration
